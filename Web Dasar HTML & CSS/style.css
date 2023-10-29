@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+
+body {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+nav a {
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+main {
+    margin: 0 8px;
+}
+
+#top {
+    padding: 16px 0 32px 0;
+}
+
+section {
+    padding: 32px 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 32px 0 16px 0;
+    padding: 16px 32px;
+    background-color: lightgrey;
+    color: #1565C0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 32px 0 16px 0;
+    padding: 16px 32px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+h1,
+h2,
+h4 {
+    font-family: 'Lora', serif;
+    text-shadow: 1px 1px 8px lightgray;
+}
+
+p {
+    margin: 16px 0;
+}
+
+img {
+    padding: 25px;
+}
+
+.bottom {
+    padding: 64px 0 32px 0;
+}
+
+.primary p {
+    margin: 32px 0 16px 0;
+    padding: 16px 32px;
+}
+
+.primary p,
+.secondary p {
+    color: #424242;
+}
+
+.secondary {
+    text-align: center;
+}
+
+.features article {
+    float: left;
+    width: 30%;
+    margin: 0 1.5%;
+    font-size: smaller;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    clear: both;
+    zoom: 1;
+}
+
+.primary div {
+    display: inline-block;
+}
+
+.primary {
+    background-color: lightgrey;
+}
+
+.book {
+    font-style: italic;
+}
+
+.review {
+    text-align: center;
+}
+
+.review img {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.review h4 {
+    font-variant: small-caps;
+}
+
+header#top nav a:link,
+header#top nav a:visited {
+    color: #1976D2;
+    line-height: 24px;
+    height: 24px;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+}
+
+header#top nav a:hover {
+    color: rgb(33, 150, 243);
+}
+
+footer.bottom nav a:link,
+footer.bottom nav a:visited,
+footer.bottom a {
+    color: #1976D2;
+}

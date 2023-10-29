@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:ital@0;1&display=swap');
+nav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 5px solid black;
+}
+
+
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background: #ddd;
+    color: black;
+}
+
+main {
+    padding: 16px;
+    margin-top: 30px;
+
+}
+
+.had1 {
+    text-align: center;
+    color: #ff0c0c;
+    font-size: 3em;
+    font-family: playfair display;
+    background-color: #333;
+    padding: 25px;
+    line-height: 0%;
+}
+
+.text-right {
+    text-align: right;
+
+}
+
+p {
+    line-height: 1.5.;
+}
+
+section {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #ddd;
+    background-color: #333;
+    padding: 100px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: open sans;
+
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid black;
+
+}
+
+
+footer a,
+aside a {
+    color: #fff;
+
+}
+
+footer a:hover,
+aside a:hover {
+    color: #ddd;
+}
+
+.img1 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.img2 {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin: 10px 10px 10px 10px;
+}
+
+.img3 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+.img4 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 150px;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+div {
+    background-color: #333;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    color: #ddd;
+}
+
+div a {
+    color: #1976D2;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+div a:hover {
+    color: #0056b3;
+}
+
+.text-color2 {
+    color: #1976D2;
+}
+
+.color {
+    color: #ab08e2;
+}
+
+.color2 {
+    color: #08ed17;
+}
+
+.color3 {
+    color: #0ce9e9;
+}

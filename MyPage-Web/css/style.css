@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: #fefefe;
+}
+
+body {
+    background-color: #161321;
+}
+
+/* - Header */
+
+.header {
+    height: 100px;
+    background-color: #201F2E;
+    font-weight: 600;
+    display: block;
+}
+
+.text {
+    padding: 25px 0px 0px 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.text-2 {
+    padding: 0px 50px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.profile-img {
+    float: right;
+    width: 128px;
+    border-radius: 50%;
+    margin: 30px 50px;
+    animation-name: floating;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    from {transform: translate(0, 0px);}
+    65% {transform: translate(0, 10px);}
+    to {transform: translate(0, 0px);}
+}
+
+/* - Main */
+
+.main p {
+    margin: 50px 350px;
+    font-size: 16px;
+}
+
+/* - Profile */
+
+.profile-title {
+    margin: 50px 900px;
+
+}
+
+.text-profile {
+    margin: 0px 200px;
+    padding: 0px 200px;
+    font-size: 15px;
+}
+
+.text-profile-2 {
+    margin: 0px 200px;
+    padding: 25px 500px;
+    text-decoration: underline;
+}
+
+.profile ul {
+    margin: -10px 700px;
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+}
+
+.profile li {
+    padding-left: 25px;
+}
+
+/* - Project */
+
+.project {
+    margin: 50px 350px;
+}
+
+.cards {
+	display: flex;
+	padding: 20px;
+    margin: 50px 50px;
+	border: 1px solid #7a7a7a;
+	border-radius: 5px;
+}
+
+.content-card {
+    margin: 10px 20px;
+}
+
+.content-card p {
+	font-size: 14px;
+}
+
+/* - Footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer ul {
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+}
+
+.footer li {
+    margin-left: 20px;
+}
+
+.footer p {
+    margin-top: 10px;
+}
+
